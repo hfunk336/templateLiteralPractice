@@ -31,7 +31,7 @@ var add = num1 + num2;
 console.log(add);
 
 //console log 3 string's using concatination that say "concatinating is easy""when using template literals,""I can even embed numbers and not have to worry about spacing!"
-console.log("concatinating is easy " + " when using template literals, " + "I can even embed numbers and not have to worry about spacing!");
+console.log(`concatinating is easy when using template literals, I can even embed numbers and not have to worry about spacing!`);
 
 //console log the three strings above and add a third string that includes the add var
-console.log("concatinating is easy " + " when using template literals, " + "I can even embed numbers and not have to worry about spacing!");
+console.log(`${message}`);
