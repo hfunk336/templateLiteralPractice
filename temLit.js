@@ -14,7 +14,7 @@ lastName;
 
 // Create a variable that will hold a score and a var that will hold a full name 
 let score = 0;
-let fullName = firstName + lastName;
+let fullName = '${firstName}  ${lastName};
 
 // create a var that adds the full name var and score in a message
 let message = `${fullName} has a score of ${score}`;
